@@ -1,2 +1,2 @@
 # Geometrics
-Calculate your volumnes or areas of geometry figures.
+Calculate your volumes or areas of geometry figures.
