@@ -1,8 +1,14 @@
+#Área Cuadrado
+def area_cuadrado():
+    acuadrado=arista**2
+    return acuadrado
 
-arista = int(input(""))
-def cuadrado(arista):
-    vcuadrado=arista*arista*arista
+#Volumen Cuadrado
+def volumen_cuadrado():
+    vcuadrado=arista**3
     return vcuadrado
 
-print(cuadrado(arista))
+arista = int(input("Tamaño de la arista: "))
 
+print("Volmen de tu cuadrado: ", volumen_cuadrado())
+print("Área de tu cuadrado: ", area_cuadrado())
