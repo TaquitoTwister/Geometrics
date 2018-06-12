@@ -10,5 +10,5 @@ def volumen_cuadrado():
 
 arista = int(input("Tamaño de la arista: "))
 
-print("Volmen de tu cuadrado: ", volumen_cuadrado())
+print("Volumen de tu cuadrado: ", volumen_cuadrado())
 print("Área de tu cuadrado: ", area_cuadrado())
