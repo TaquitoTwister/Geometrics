@@ -1,4 +1,4 @@
-#Área Cubo
+#Área Lateral Cubo
 def area_cubo():
     acubo=arista**2
     return acubo
@@ -8,7 +8,7 @@ def volumen_cubo():
     vcubo=arista**3
     return vcubo
 
-arista = int(input("Tamaño de la arista: "))
+arista = float(input("Tamaño de la arista: "))
 
-print("Volumen de tu Cubo: ", volumen_cubo())
-print("Área lateral del Cubo: ", area_cubo())
+print("Volumen de tu Cubo: ", round(volumen_cubo(),2))
+print("Área lateral del Cubo: ", round(area_cubo(),2))
