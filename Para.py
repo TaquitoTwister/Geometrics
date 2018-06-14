@@ -17,11 +17,11 @@ def volumen_paralelepipedo_rectangular():
     return vparalelepipedor
 
 #variables
-h=int(input("Altura: "))
-l=int(input("Largo: "))
-a=int(input("Ancho: "))
+h=float(input("Altura: "))
+l=float(input("Largo: "))
+a=float(input("Ancho: "))
 
-print("El área de la base es: ",area_base_paralelepipedo_rectangular())
-print("El área lateral por largo es: ",area_lado_1_paralelepipedo_rectangular())
-print("El área lateral por ancho es: ",area_lado_2_paralelepipedo_rectangular())
-print("El volumen del Paralelepipedo Rectangular es: ",volumen_paralelepipedo_rectangular())
+print("El área de la base es: ",round(area_base_paralelepipedo_rectangular(),2))
+print("El área lateral por largo es: ",round(area_lado_1_paralelepipedo_rectangular(),2))
+print("El área lateral por ancho es: ",round(area_lado_2_paralelepipedo_rectangular(),2))
+print("El volumen del Paralelepipedo Rectangular es: ",round(volumen_paralelepipedo_rectangular(),2))
