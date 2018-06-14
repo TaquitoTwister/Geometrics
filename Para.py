@@ -4,11 +4,11 @@ def area_base_paralelepipedo_rectangular():
     return areabp
 
 def area_lado_1_paralelepipedo_rectangular():
-    arealp1=h*a
+    arealp1=h*l
     return arealp1
 
 def area_lado_2_paralelepipedo_rectangular():
-    arealp2=h*l
+    arealp2=h*a
     return arealp2
 
 #Volumen Paralelepipedo Rectangular
