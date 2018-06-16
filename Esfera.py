@@ -1,6 +1,6 @@
 import math
 #Área Esfera
-def area_esfera(r):
+def area_esfera():
     area=(4*math.pi*(r**2))
     return area
 
@@ -11,5 +11,5 @@ def volumen_esfera():
 
 r = float(input("Radio: "))
 
-print("El volumen de la Esfera es:",round(volumen_esfera(r),2))
-print("El área es: ",round(area_esfera(r),2))
+print("El volumen de la Esfera es:",round(volumen_esfera(),2))
+print("El área de la Esfera es:",round(area_esfera(),2))
