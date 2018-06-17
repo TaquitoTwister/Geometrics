@@ -4,12 +4,12 @@ if figura == "rectángulo" or figura == "rectangulo":
         drec=math.sqrt(a**2 + l**2)
         return drec
 
-    #Área Cuadrado
+    #Área Rectángulo
     def area_rectangulo():
         arearec=l*a
         return arearec
 
-    #Perímetro Cuadrado
+    #Perímetro Rectángulo
     def perimetro_rectangulo():
         perirec=2* (l + a)
         return perirec
