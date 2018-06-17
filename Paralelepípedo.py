@@ -22,7 +22,7 @@ if figura == "paralelepipedo" or figura == "paralelepípedo":
     #Área Total Paralelepipedo Rectangular
     def area_total_paralelepipedo_rectangular():
         arealp2=2*(l*a + l*h * a*h)
-     return arealp2
+        return arealp2
 
     #Volumen Paralelepipedo Rectangular
     def volumen_paralelepipedo_rectangular():
