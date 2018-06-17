@@ -1,0 +1,23 @@
+import math
+
+#Diagonal Rectángulo
+def diag_rectangulo():
+    drec=math.sqrt(a**2 + l**2)
+    return drec
+
+#Área Cuadrado
+def area_rectangulo():
+    arearec=l*a
+    return arearec
+
+#Perímetro Cuadrado
+def perimetro_rectangulo():
+    perirec=2* (l + a)
+    return perirec
+
+l=float(input("Largo: "))
+a=float(input("Ancho: "))
+
+print("La diagonal es: ",round(diag_rectangulo(),2))
+print("El área es: ",round(area_rectangulo(),2))
+print("El perímetro es: ",round(perimetro_rectangulo(),2))
