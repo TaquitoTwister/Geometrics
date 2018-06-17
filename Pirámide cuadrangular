@@ -1,0 +1,37 @@
+import math
+
+#Perímetro Pirámide cuadrangular
+def per_pir():
+    ppir=4* (a + math.sqrt(ap**2 + (a/2)**2))
+    return ppir
+
+#Área Base Pirámide cuadrangular
+def areab_pir():
+    apir=a**2
+    return apir
+
+#Área Lateral Pirámide cuadrangular
+def areal_pir():
+    apir=4* (a*ap/2)
+    return apir
+
+#Área Total Pirámide cuadrangular
+def areat_pir():
+    apir=(4* (a*ap/2)) + a**2
+    return apir
+
+#Volumen Pirámide cuadrangular
+def volumen_pir():
+    vpir=a**2 * h / 3
+    return vpir
+
+a = float(input("Tamaño de la arista de la base: "))
+h = float(input("Altura: "))
+ap = math.sqrt(h**2 + (a/2)**2)
+
+
+print("Perímetro de la Pirámide: ", round(per_pir(),2))
+print("Área de la base de la Pirámide: ", round(areab_pir(),2))
+print("Área lateral de la Pirámide: ", round(areal_pir(),2))
+print("Área total de la Pirámide: ", round(areat_pir(),2))
+print("Volumen de la Pirámide: ", round(volumen_pir(),2))
