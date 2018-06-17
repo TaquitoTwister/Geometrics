@@ -1,8 +1,4 @@
 if figura == "paralelepipedo" or figura == "paralelepípedo":
-    #Perímetro Paralelepipedo Rectangular
-    def per_paralelepipedo_rectangular():
-        arealp1=4* (l + a + h)
-        return arealp1
 
     #Diagonal Paralelepipedo Rectangular
     def diag_paralelepipedo_rectangular():
@@ -16,12 +12,12 @@ if figura == "paralelepipedo" or figura == "paralelepípedo":
 
     #Área Lateral Paralelepipedo Rectangular
     def area_lateral_paralelepipedo_rectangular():
-        arealp1=2* (h*l + h*a)
+        arealp1=2*(h*l + h*a)
         return arealp1
 
     #Área Total Paralelepipedo Rectangular
     def area_total_paralelepipedo_rectangular():
-        arealp2=2*(l*a + l*h * a*h)
+        arealp2=2*(l*a + l*h + a*h)
         return arealp2
 
     #Volumen Paralelepipedo Rectangular
@@ -34,7 +30,6 @@ if figura == "paralelepipedo" or figura == "paralelepípedo":
     l=float(input("Largo: "))
     a=float(input("Ancho: "))
 
-    print("El perímetro es: ",round(per_paralelepipedo_rectangular(),2))
     print("La diagonal es: ",round(diag_paralelepipedo_rectangular(),2))
     print("El área de la base es: ",round(area_base_paralelepipedo_rectangular(),2))
     print("El área lateral es: ",round(area_lateral_paralelepipedo_rectangular(),2))
