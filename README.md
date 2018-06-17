@@ -1,2 +1,2 @@
 # Geometrics
-Calculate your volumes or areas of geometry figures.
+Calculate perimeters, areas and volumes of Geometric shapes.
