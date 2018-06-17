@@ -1,0 +1,3 @@
+import math
+figura = input("Seleccione una figura 2D/3D [Cuadrado, Rectángulo, Esfera, Cubo, Pirámide, Paralelepípedo rectangular]:")
+figura = figura.lower()
