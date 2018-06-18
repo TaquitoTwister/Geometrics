@@ -1,0 +1,23 @@
+if figura == "prisma triangular":
+    ladbase =  float(input("Lado de la base: "))
+    alturaprisma =   float(input("Altura: ")
+    
+    def area_base():
+       abase= ((ladbase**2)math.sqrt(3))/4
+       return abase
+    
+    def volumen_prisma():
+        vprisma = area_base*alturaprisma
+        return vprisma
+
+    def area_total_prisma():
+        atprisma = ((ladbase*alturaprisma)*3)+ area_base*2
+        return atprisma
+        
+    def area_lateral_cono():
+        alprisma = (ladbase*alturaprisma)*3
+        return alprisma
+
+    print("El área lateral del prisma triángular es: ",round(area_lateral_prisma(),2))
+    print("El área total del primsa triángular es: ",round(area_total_prisma(),2))
+    print("El volumen del prisma triángular es: ",round(volumen_prisma(),2))
