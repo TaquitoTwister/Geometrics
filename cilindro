@@ -1,0 +1,24 @@
+if figura == "cilindro":
+    radiocilindro =  float(input("Radio: "))
+    alturacilindro =   float(input("Altura: "))
+
+def volumen_cilindro():
+    volcilindro = math.pi * (radiocilindro**2) * alturacilindro
+    return  volcilindro
+        
+def area_base_cilindro():
+    abcilindro= math.pi*(radiocilindro**2)
+    return abcilindro
+    
+def area_lateral_cilindro():
+    alcilindro= math.pi*(radiocilindro**2)
+    return abcilindro       
+
+def area_total_cilindro():
+   atcilindro= (2*abcilindro)+alcilindro
+   return atcilindro
+
+
+    print("El área lateral del Cilindro es: ",round(area_lateral_cilindro(),2))
+    print("El área total del Cilindro es: ",round(area_total_cilindro(),2))
+    print("El volumen del Cilindro es: ",round(volumen_cilindro(),2))
