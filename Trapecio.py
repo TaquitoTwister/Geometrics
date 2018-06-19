@@ -1,18 +1,18 @@
 #Área Trapecio
-def area_trapecio(B,b,h):
-    area=(B+b)*h/2
-    return area
+def area_trapecio():
+    areatrape=(Btrape+btrape)*htrape/2
+    return areatrape
 
 #Perímetro Trapecio
-def perimetro_trapecio(B,b,a,c):
-    peri=a+B+b+c
-    return peri
+def perimetro_trapecio():
+    peritrape=atrape+Btrape+btrape+ctrape
+    return peritrape
 
-a=float(input("Primer lado: "))
-c=float(input("Segundo lado: "))
-b=float(input("Base menor: "))
-B=float(input("Base mayor: "))
-h=float(input("Altura: "))
+atrape=float(input("Lado Izquierdo: "))
+ctrape=float(input("Lado Derecho: "))
+btrape=float(input("Base menor: "))
+Btrape=float(input("Base mayor: "))
+htrape=float(input("Altura: "))
 
-print("El área es: ",round(area_trapecio(B,b,h),2))
-print("El perímetro es: ",round(perimetro_trapecio(B,b,a,c,2))
+print("El área del Trapecio es: ",round(area_trapecio(),2))
+print("El perímetro es: ",round(perimetro_trapecio(),2))
