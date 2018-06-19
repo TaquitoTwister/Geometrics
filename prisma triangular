@@ -3,8 +3,8 @@ if figura == "prisma triangular":
     alturaprisma =   float(input("Altura: ")
     
     def area_base():
-       abase= ((ladbase**2)math.sqrt(3))/4
-       return abase
+       abasepris= ((ladbase**2)math.sqrt(3))/4
+       return abasepris
     
     def volumen_prisma():
         vprisma = area_base*alturaprisma
