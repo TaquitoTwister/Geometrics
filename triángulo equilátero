@@ -1,12 +1,13 @@
 if figura == "triángulo equilatero":
     ladotriangulo=float(input("lado del triángulo:")
     
-    def area_triangulo():
-       atriangulo= ((ladotriangulo**2)*math.sqrt(3))/4
+    def area_trianguloequi():
+       atrianguloequi= ((ladotriangulo**2)*math.sqrt(3))/4
        return atriangulo
+    
     def perimetro_triangulo():
        ptriangulo= ladotriangulo*3
        return ptriangulo
     
-    print("El área es: ",round(area_triangulo(),2))
+    print("El área es: ",round(area_trianguloequi(),2))
     print("El perímetro es: ",round(perimetro_triangulo(),2))
