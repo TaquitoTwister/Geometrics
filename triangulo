@@ -1,0 +1,19 @@
+if figura == "triangulo" or if figura == "triángulo":
+a=float(input("ingrese lado 1:"))
+b=float(input("ingrese lado 2:"))
+c=float(input("ingrese lado 3:"))
+p=(a+b+c)/2
+
+#Área triangulo
+def area_triangulo():
+    areatria=(p*(p-a)*(p-b)*(p-c))**0.5
+    return areatria
+
+#Perímetro triangulo
+def perimetro_triangulo():
+    peritria=2*p
+    return peritria
+
+print("no hay diagonales")
+print("El área es: ",round(area_triangulo(),2))
+print("El perímetro es: ",round(perimetro_triangulo(),2))
